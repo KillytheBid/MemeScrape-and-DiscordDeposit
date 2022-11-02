@@ -73,7 +73,7 @@ def open_file(url,name):
 def Post_Meme(postText):
     from discord import SyncWebhook
 
-    webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1037088341889388638/UmC7uMTTCUdKaix74xDKzHr-84qwGMM33irTV9xstie7lNcJwc1F4cb8iluNxIvglntw")
+    webhook = SyncWebhook.from_url()
     webhook.send(postText)
 
 
